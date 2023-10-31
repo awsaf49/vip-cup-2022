@@ -9,7 +9,8 @@ This repo contains code for the **IEEE VIP Cup 2022** (ICIP 2022) hosted by NVID
 
 # Update
 
-This work has been extended and published in the ICIP 2023. More details can be found in the [Project Page](https://github.com/awsaf49/artifact).
+* This work has been extended and published in the ICIP 2023. More details can be found in the [Project Page](https://github.com/awsaf49/artifact).
+* Checkpoints will be added soon.
 
 
 # Background
@@ -30,6 +31,12 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 | Sherlock              | 87\.70     | 77\.52     | 73\.45     |
 | FAU Erlangen-Nürnberg | 87\.14     | 81\.74     | 75\.52     |
 | **Megatron (Ours)**   | **96\.04** | **83\.00** | **90\.60** |
+
+# How to Run
+
+```shell
+!python3 main.py <input.csv> <output.csv>
+```
 
 # Challenge Evaluation Criteria
 
